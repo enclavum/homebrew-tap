@@ -6,6 +6,8 @@ Homebrew tap for [enclavum](https://github.com/enclavum) apps.
 
 ```sh
 brew tap enclavum/tap
+brew trust enclavum/tap  # required on recent Homebrew
+
 brew install --cask lmdeck
 ```
 
