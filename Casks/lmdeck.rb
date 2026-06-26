@@ -4,8 +4,8 @@ cask "lmdeck" do
 
   url "https://github.com/enclavum/lmdeck/releases/download/v#{version}/LMDeck.dmg"
   name "LMDeck"
-  desc "One OpenAI endpoint for local LLM engines, with cross-engine memory management"
-  homepage "https://github.com/enclavum/lmdeck"
+  desc "One OpenAI endpoint for local LLM engines — with cross-engine memory management"
+  homepage "https://lmdeck.app/"
 
   livecheck do
     url :url

@@ -13,4 +13,4 @@ brew install --cask lmdeck
 
 ## Casks
 
-- **[lmdeck](https://github.com/enclavum/lmdeck)** — One OpenAI endpoint for local LLM engines, with cross-engine memory management.
+- **[lmdeck](https://github.com/enclavum/lmdeck)**: One OpenAI endpoint for local LLM engines — with cross-engine memory management
