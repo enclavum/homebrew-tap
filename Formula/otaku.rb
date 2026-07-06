@@ -3,8 +3,8 @@ class Otaku < Formula
 
   desc "Terminal chat client for local LLMs (Ollama, LM Studio, MLX, OpenAI-compatible)"
   homepage "https://github.com/enclavum/otaku"
-  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "07cc5fcbd1ecb37d8abf187507b6dc2780521c1f6ac26025e6c64a4b187c5ed0"
+  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "f30d0bd829c4eb60ab5c03ccc296b9e977a3410cdc2e4b7ea1660f9ae30eb8a0"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
