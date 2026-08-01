@@ -18,4 +18,4 @@ brew install otaku            # otaku (CLI)
 
 ## Formulae
 
-- **[otaku](https://github.com/enclavum/otaku)**: Terminal chat client for local LLMs — Ollama, LM Studio, MLX, and any OpenAI-compatible server
+- **[otaku](https://github.com/enclavum/otaku)**: Roleplay terminal client — stories that branch and grow their own lore
