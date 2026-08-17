@@ -3,8 +3,8 @@ class Otaku < Formula
 
   desc "Roleplay terminal client"
   homepage "https://github.com/enclavum/otaku"
-  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "f3da97e13d6ffa512d6a88b6193c8700e1dbad8a3f02a2fee2d48a9fb68c5788"
+  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "a2e1443bba4dc4f7afd7cd45d1f146bf644e97b11215ae03b6bd3518f77cbd20"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
