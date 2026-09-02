@@ -1,10 +1,10 @@
 class Otaku < Formula
   include Language::Python::Virtualenv
 
-  desc "Roleplay terminal client"
+  desc "Roleplay client for local and cloud LLMs, in a web UI or the terminal"
   homepage "https://github.com/enclavum/otaku"
-  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "a2e1443bba4dc4f7afd7cd45d1f146bf644e97b11215ae03b6bd3518f77cbd20"
+  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "d6c765b2f163c823383212e425cc607c3a8452b064a0c057abed7904f7e920c3"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
@@ -52,11 +52,6 @@ class Otaku < Formula
   resource "prompt-toolkit" do
     url "https://files.pythonhosted.org/packages/7d/ea/39b988c938f75cb75d7045b5c69f8bfed47ee2152c8837fb403de29d6fb8/prompt_toolkit-3.0.53.tar.gz"
     sha256 "9ec8a0ad96d5c56148b3f914aa79c1564c3fde5d2e6b876e7bc327e353cf8fa6"
-  end
-
-  resource "psutil" do
-    url "https://files.pythonhosted.org/packages/aa/c6/d1ddf4abb55e93cebc4f2ed8b5d6dbad109ecb8d63748dd2b20ab5e57ebe/psutil-7.2.2.tar.gz"
-    sha256 "0746f5f8d406af344fd547f1c8daa5f5c33dbc293bb8d6a16d80b4bb88f59372"
   end
 
   resource "wcwidth" do
