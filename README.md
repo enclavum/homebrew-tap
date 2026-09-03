@@ -18,4 +18,4 @@ brew install otaku            # otaku (CLI)
 
 ## Formulae
 
-- **[otaku](https://github.com/enclavum/otaku)**: Roleplay client for local and cloud LLMs, in a web UI or the terminal
+- **[otaku](https://github.com/enclavum/otaku)**: LLM frontend for roleplay

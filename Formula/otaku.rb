@@ -1,10 +1,10 @@
 class Otaku < Formula
   include Language::Python::Virtualenv
 
-  desc "Roleplay client for local and cloud LLMs, in a web UI or the terminal"
+  desc "LLM frontend for roleplay"
   homepage "https://github.com/enclavum/otaku"
-  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "d6c765b2f163c823383212e425cc607c3a8452b064a0c057abed7904f7e920c3"
+  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "14f35c9570be7ebe5d6e725da49b2282f7aede605ff7e10b4abc7198d70e134f"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
