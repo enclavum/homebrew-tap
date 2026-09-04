@@ -3,8 +3,10 @@ class Otaku < Formula
 
   desc "LLM frontend for roleplay"
   homepage "https://github.com/enclavum/otaku"
-  url "https://github.com/enclavum/otaku/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "14f35c9570be7ebe5d6e725da49b2282f7aede605ff7e10b4abc7198d70e134f"
+  # The sdist attached to the release, not the tag archive: an asset carries a
+  # public download count, the archive is counted nowhere.
+  url "https://github.com/enclavum/otaku/releases/download/v0.4.1/otaku-0.4.1.tar.gz"
+  sha256 "095c758ea2d4e4cc25c6bb6da8c18206677db345268f790f12238dba884ee102"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
