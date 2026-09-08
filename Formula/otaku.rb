@@ -5,8 +5,8 @@ class Otaku < Formula
   homepage "https://github.com/enclavum/otaku"
   # The sdist attached to the release, not the tag archive: an asset carries a
   # public download count, the archive is counted nowhere.
-  url "https://github.com/enclavum/otaku/releases/download/v0.4.2/otaku-0.4.2.tar.gz"
-  sha256 "cc2572515b04acc4d8d49680ea86fd5eff02463fc2c2762c9a2f2788fa4c8288"
+  url "https://github.com/enclavum/otaku/releases/download/v0.4.3/otaku-0.4.3.tar.gz"
+  sha256 "39082a117f975e812d0a457d031f7624ea920386aa882c9aee4206941c7230c9"
   license "MIT"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
