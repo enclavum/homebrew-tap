@@ -18,4 +18,4 @@ brew install otaku            # otaku (CLI)
 
 ## Formulae
 
-- **[otaku](https://github.com/enclavum/otaku)**: LLM frontend for roleplay
+- **[otaku](https://github.com/enclavum/otaku)**: LLM frontend for creative writing and roleplay
