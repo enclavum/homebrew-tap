@@ -1,12 +1,12 @@
 class Otaku < Formula
   include Language::Python::Virtualenv
 
-  desc "LLM frontend for creative writing and roleplay"
+  desc "LLM frontend for roleplay and creative writing"
   homepage "https://github.com/enclavum/otaku"
   # The sdist attached to the release, not the tag archive: an asset carries a
   # public download count, the archive is counted nowhere.
-  url "https://github.com/enclavum/otaku/releases/download/v0.8.0/otaku-0.8.0.tar.gz"
-  sha256 "40806fcb07b3b35b9c2a761c0c973378d3dcab44c9dc5d59228dbdd7ce1fb05d"
+  url "https://github.com/enclavum/otaku/releases/download/v0.9.0/otaku-0.9.0.tar.gz"
+  sha256 "86186829d4d3d8deebd28b0c596dfa6eaa1a07431a836813f72526252bd998e6"
   license "AGPL-3.0-only"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
