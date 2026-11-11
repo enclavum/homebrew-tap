@@ -5,8 +5,8 @@ class Otaku < Formula
   homepage "https://github.com/enclavum/otaku"
   # The sdist attached to the release, not the tag archive: an asset carries a
   # public download count, the archive is counted nowhere.
-  url "https://github.com/enclavum/otaku/releases/download/v0.9.0/otaku-0.9.0.tar.gz"
-  sha256 "86186829d4d3d8deebd28b0c596dfa6eaa1a07431a836813f72526252bd998e6"
+  url "https://github.com/enclavum/otaku/releases/download/v0.10.0/otaku-0.10.0.tar.gz"
+  sha256 "e22048afe0f90d3bed9de1497488ccad0279ecfae6539c8d33fffe7f050bcaca"
   license "AGPL-3.0-only"
   head "https://github.com/enclavum/otaku.git", branch: "main"
 
@@ -14,11 +14,15 @@ class Otaku < Formula
   # download, instead of pulling Rust in to compile the extension on every
   # machine (third-party taps get no bottles of their own).
   depends_on "pkgconf" => :build
+  # cffi as a bottle too: sounddevice, dictation's microphone, is written in it.
+  depends_on "cffi" => :no_linkage
   depends_on "cryptography" => :no_linkage
   # Pillow as a brewed bottle for the same reason; libheif for the HEIC opener
   # pillow-heif builds against, found through pkg-config at build time.
   depends_on "libheif"
   depends_on "pillow" => :no_linkage
+  # PortAudio for dictation's microphone, loaded by sounddevice at the first recording.
+  depends_on "portaudio"
   depends_on "python@3.14"
 
   resource "anyio" do
@@ -64,6 +68,11 @@ class Otaku < Formula
   resource "prompt-toolkit" do
     url "https://files.pythonhosted.org/packages/7d/ea/39b988c938f75cb75d7045b5c69f8bfed47ee2152c8837fb403de29d6fb8/prompt_toolkit-3.0.53.tar.gz"
     sha256 "9ec8a0ad96d5c56148b3f914aa79c1564c3fde5d2e6b876e7bc327e353cf8fa6"
+  end
+
+  resource "sounddevice" do
+    url "https://files.pythonhosted.org/packages/ec/db/0c890e2d9aab9ba284021efc02e1d3aebfecab1b611762d7434602209bcf/sounddevice-0.5.6.tar.gz"
+    sha256 "8ec9fbfde2e32f020b167e348f3ab3bac6625a5f15af524d790108ac7147a410"
   end
 
   resource "typing-extensions" do
