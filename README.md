@@ -8,13 +8,8 @@ Homebrew tap for [enclavum](https://github.com/enclavum) apps.
 brew tap enclavum/tap
 brew trust enclavum/tap  # required on recent Homebrew
 
-brew install --cask llmfuse   # LLMFuse (macOS app)
-brew install otaku            # otaku (CLI)
+brew install otaku  # otaku (CLI)
 ```
-
-## Casks
-
-- **[llmfuse](https://github.com/enclavum/llmfuse)**: Menu-bar memory watchdog for local LLM providers, with cross-provider eject
 
 ## Formulae
 
